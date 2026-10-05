@@ -1,0 +1,121 @@
+:root {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Roboto Mono', 'SFMono-Regular', Menlo, Monaco, Consolas, monospace;
+  
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+}
+
+/* 1. Deep Dark Control Room Theme (Default) */
+body.theme-dark {
+  --bg-app: #080c14;
+  --bg-surface: #0e1526;
+  --bg-surface-hover: #162038;
+  --bg-surface-elevated: #1a2744;
+  --bg-glass: rgba(14, 21, 38, 0.88);
+  
+  --border-subtle: rgba(148, 163, 184, 0.12);
+  --border-medium: rgba(148, 163, 184, 0.22);
+  --border-bright: rgba(56, 189, 248, 0.4);
+
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --text-faint: #64748b;
+
+  /* Semantic palette */
+  --c-traversable: #10b981;
+  --c-traversable-bg: rgba(16, 185, 129, 0.15);
+  --c-caution: #f59e0b;
+  --c-caution-bg: rgba(245, 158, 11, 0.15);
+  --c-hazard: #ef4444;
+  --c-hazard-bg: rgba(239, 68, 68, 0.15);
+  --c-path: #38bdf8;
+  --c-path-bg: rgba(56, 189, 248, 0.15);
+  --c-inactive: #64748b;
+  
+  --c-estop: #dc2626;
+  --c-estop-hover: #b91c1c;
+  --c-estop-glow: rgba(220, 38, 38, 0.5);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.6);
+  --hud-glow: 0 0 12px rgba(56, 189, 248, 0.25);
+}
+
+/* 2. High-Contrast Outdoor Theme (Sunlight / Field Tablet) */
+body.theme-outdoor {
+  --bg-app: #000000;
+  --bg-surface: #121212;
+  --bg-surface-hover: #222222;
+  --bg-surface-elevated: #282828;
+  --bg-glass: #121212;
+  
+  --border-subtle: #444444;
+  --border-medium: #888888;
+  --border-bright: #ffff00;
+
+  --text-main: #ffffff;
+  --text-muted: #e2e8f0;
+  --text-faint: #cbd5e1;
+
+  --c-traversable: #00ff66;
+  --c-traversable-bg: rgba(0, 255, 102, 0.3);
+  --c-caution: #ffcc00;
+  --c-caution-bg: rgba(255, 204, 0, 0.35);
+  --c-hazard: #ff2200;
+  --c-hazard-bg: rgba(255, 34, 0, 0.35);
+  --c-path: #00e5ff;
+  --c-path-bg: rgba(0, 229, 255, 0.3);
+  --c-inactive: #888888;
+  
+  --c-estop: #ff0000;
+  --c-estop-hover: #cc0000;
+  --c-estop-glow: rgba(255, 0, 0, 0.8);
+
+  --shadow-sm: none;
+  --shadow-md: 0 0 0 2px #ffffff;
+  --shadow-lg: 0 0 0 3px #ffff00;
+  --hud-glow: none;
+}
+
+/* 3. Clean Light Theme (Technical Lab) */
+body.theme-light {
+  --bg-app: #f1f5f9;
+  --bg-surface: #ffffff;
+  --bg-surface-hover: #f8fafc;
+  --bg-surface-elevated: #e2e8f0;
+  --bg-glass: rgba(255, 255, 255, 0.95);
+  
+  --border-subtle: #e2e8f0;
+  --border-medium: #cbd5e1;
+  --border-bright: #0284c7;
+
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --text-faint: #64748b;
+
+  --c-traversable: #059669;
+  --c-traversable-bg: rgba(5, 150, 105, 0.12);
+  --c-caution: #d97706;
+  --c-caution-bg: rgba(217, 119, 6, 0.12);
+  --c-hazard: #dc2626;
+  --c-hazard-bg: rgba(220, 38, 38, 0.12);
+  --c-path: #0284c7;
+  --c-path-bg: rgba(2, 132, 199, 0.12);
+  --c-inactive: #94a3b8;
+  
+  --c-estop: #dc2626;
+  --c-estop-hover: #b91c1c;
+  --c-estop-glow: rgba(220, 38, 38, 0.3);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 24px rgba(0, 0, 0, 0.12);
+  --hud-glow: none;
+}

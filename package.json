@@ -1,0 +1,11 @@
+{
+  "name": "terra-sight-ugv-mission-control",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TerraSight Autonomous UGV Mission Control Dashboard",
+  "scripts": {
+    "dev": "npm --prefix ugv-dashboard run dev",
+    "build": "npm --prefix ugv-dashboard run build",
+    "preview": "npm --prefix ugv-dashboard run preview"
+  }
+}
